@@ -1,0 +1,21 @@
+body{
+    padding: 0;
+    margin: 0 ;
+    
+}
+#nav{
+    height: 100px;
+    background-color: rgb(224, 227, 227);
+    border-bottom: 45px;
+
+}
+#nav a{
+    padding: 0 100px;
+    margin-top:;
+    font-size: large;
+    color: rgb(3, 1, 8);
+    font-weight: 600;
+  
+
+
+}
