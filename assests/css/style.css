@@ -26,6 +26,11 @@ body{
     height: 100%;
     
 }
+#quote{
+    box-sizing: content-box;
+    text-align: center;
+    height: 40vh;
+}
 .img{
     display: flex;
     flex-direction: row;
@@ -36,6 +41,12 @@ body{
 h2{ 
     text-align: center;
     padding: 30px;
+    border-bottom: 2px solid rgb(198, 134, 24);
+    padding-bottom: 2px;
+
+}
+h3{
+    color:rgb(16, 1, 56)
 }
 .categories{
     background-color: rgb(136, 136, 136);
