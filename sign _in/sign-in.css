@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+        margin: 0;
+        background-image: url(../photos/lib.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.main {
+    display: block;
+   background-color: rgb(226, 227, 230);
+   text-align: center;
+   border-radius: 10px;
+   width: 500px;
+   height: 80vh;
+   position: absolute;
+   top: 15%;
+   left: 30%;
+}
+main div{
+    display: block;
+
+}
+.header{
+    background-color:rgb(59, 185, 248);
+    margin: 20px;
+    color:black;
+    border-radius: 0 16px  0 16px;
+}
+.sign input{
+    display: block;
+    margin: 20px;
+    width: 80%;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+}
+.sign select{
+    display: block;
+    margin: 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 18px;
+}
+button{
+    padding: 15px;
+    color: rgb(248, 109, 59 );
+}

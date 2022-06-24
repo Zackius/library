@@ -1,0 +1,23 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "LIB API",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch library.json "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zackius/library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zackius/library/issues"
+  },
+  "homepage": "https://github.com/Zackius/library#readme",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "save": "^2.5.0"
+  }
+}

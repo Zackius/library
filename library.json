@@ -1,0 +1,22 @@
+{
+  "books":[
+    {
+      "id" : "1",
+      "bookName" : "Javascript King",
+      "author": "Zack Ndungu",
+      "dateOfPublish" : "06/12/2020"
+  
+    },
+    {
+      "id": "2",
+      "bookName" : "Javascript For Beginners",
+      "author": "James King",
+      "dateOfPublish" : "06/02/2010"
+      
+
+    }
+  ],
+  "users":[
+
+  ]
+}
