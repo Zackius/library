@@ -10,10 +10,10 @@
   <body>
     <header id="nav">
       <img src="./photos/favicon.ico" alt="">
-      <a href=""> Home</a>
-      <a href="">Books</a>
-      <a href="">Quotes</a>
-      <a href=""> Writers</a>
+      <a href="index.html"> Home</a>
+      <a href="#categories">Books</a>
+      <a href="#quote">Quotes</a>
+      <a href="">Add a Book</a>
       <a href="./sign _in/sign-in.html">Sign In</a>
       <a href="#aboutus">About Us</a>
     </header>
@@ -28,27 +28,33 @@
 
     <section>
       <div id="quote">
-        <h2>TODAY'S QUOTE</h2>
+        <h1>TODAY'S QUOTE</h1>
       </div>
       <div id="quotes">
 
       </div>
     </section>
-    <section class="categories">
+    <section id="categories">
       <div>
-        <h2>BOOKS CATEGORIES</h2>
+        <h1>BOOKS CATEGORIES</h1>
       </div>
-      <div id="img">
-         <div>
-          <h4 id="bokName"></h4>
-          <h5 id="author"></h5>
-          <h6 id="realese"></h6>
-  
-         </div>
-        
-    </section>
+      <div class="cate">
+        <div id="availBooks"> 
+          <h2>Available Books</h2>
+        </div>
+        <div >
+          <img id="img" src="./photos/9781921844584.jpg" alt=""  width="300px" height="300px">
+        </div>
+        <div id="booksName">
+          <h2>Book Details</h2>
+          <h3 id="title"><Span>Book Title:</Span></h3>
+          <h3 id="author"><span>Author:</span></h3>
+          <h3 id="date"><span>Date of Publish:</span></h3>
+        </div>
+      </div>
+          </section>
     <section id="aboutus">
-       <h2>About Us</h2>
+       <h1>About Us</h1>
       <div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque neque quis soluta? Magni nisi earum eum impedit nobis, aliquid perspiciatis
            nulla magnam consequatur similique, harum sed itaque voluptas libero.
@@ -65,7 +71,16 @@ fourteen days, deliver to the Director, Kenya National Library Service, two copi
       </div>
     </section>
     
-    <section>footer</section>
+    <section id="footer">
+      <div>
+        <h1>Contact</h1>
+      </div>
+      <div class="foter">
+        <p><span>Email : </span> techlab@gmail.com</p>
+        <p><span>Tel: </span> 0756 987 556</p>
+        <p><span>Location : </span> Kenya > Upperhill</p>
+      </div>
+    </section>
     <script src="./assests/js/main.js"></script>
 
   </body>

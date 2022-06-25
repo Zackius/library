@@ -34,11 +34,12 @@ body{
 #img{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin:40px; 
     justify-content: space-between;
     padding-left: 20px;
 }
-h2{ 
+h1{ 
     text-align: center;
     padding: 30px;
     border-bottom: 2px solid rgb(198, 134, 24);
@@ -48,11 +49,34 @@ h2{
 h3{
     color:rgb(16, 1, 56)
 }
-.categories{
+#categories{
     background-color: rgb(136, 136, 136);
-    height: 450px;
+    height: 500px;
+}
+.cate{
+    display: flex;
+    justify-content: space-around;
+
+}
+.cate div{
+    padding: 20px;
+   
 }
 #aboutus{
     text-align: center;
-    padding: 20px
+    padding: 20px;;
+}
+#aboutus p{
+    margin: 70px;
+}
+#footer{
+    background-color: black;
+    color:aliceblue;
+    height: 30vh;
+}
+.foter{
+    text-align: center;
+}
+.foter p{
+    padding: 10px;
 }

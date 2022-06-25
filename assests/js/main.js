@@ -46,19 +46,25 @@ renderQuotes();
 
 function renderBooks(vitabu) {
   vitabu.forEach((book) => {
-    const bookImage = document.getElementById("img");
+    const booksAvail = document.getElementById("availBooks");
+    const h4 = document.createElement("h4");
 
-    const image = document.createElement("img");
-    image.src = book.image_url;
-    image.style.width = "300px";
-    image.style.height = "200px";
-    bookImage.appendChild(image);
-    const h4 = document.getElementById("bokName");
-    h4.innerText = book.bookName;
-    const h5 = document.getElementById("author");
-    h5.innerText = book.author;
-    const h6 = document.getElementById("realese");
-    h6.innerText = book.dateOfPublish;
+    h4.textContent = book.bookName;
+    h4.style.color = "brown";
+    booksAvail.appendChild(h4);
+
+    h4.addEventListener("click", () => {
+      const image = document.querySelector("#img");
+      image.src = book.image_url;
+
+      const bokName = document.getElementById("title");
+      bokName.textContent = book.bookName;
+
+      const author = document.getElementById("author");
+      author.textContent = book.author;
+      const pDate = document.getElementById("date");
+      pDate.textContent = book.dateOfPublish;
+    });
   });
 }
 renderBooks();
