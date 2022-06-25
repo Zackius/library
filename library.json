@@ -1,20 +1,39 @@
 {
   "books":[
     {
-      "id" : "1",
+
       "bookName" : "Javascript King",
       "author": "Zack Ndungu",
-      "dateOfPublish" : "06/12/2020"
+      "dateOfPublish" : "06/12/2020",
+      "image_url"  :  "http://127.0.0.1:5500/photos/library.jpg"
   
     },
     {
-      "id": "2",
+
       "bookName" : "Javascript For Beginners",
       "author": "James King",
-      "dateOfPublish" : "06/02/2010"
+      "dateOfPublish" : "06/02/2010",
+      "image_url" : "http://127.0.0.1:5500/photos/lib.jpeg"
       
 
+    },
+    {
+
+      "bookName" : "Javascript For Intermediaries",
+      "author": "Jane Ken",
+      "dateOfPublish" : "06/7/2000",
+      "image_url"  :  "http://127.0.0.1:5500/photos/zero.jpeg"
+
+    },
+    {
+    
+      "bookName" : "Javascript For You",
+      "author": "Mayweather",
+      "dateOfPublish" : "06/52005",
+      "image_url"  :  "http://127.0.0.1:5500/photos/zero.jpeg"
+
     }
+
   ],
   "quotes":[
     {
