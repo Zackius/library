@@ -1,18 +1,18 @@
-// let initialImage = 0;
-// function imageSlides() {
-//   setTimeout(imageSlides, 5000);
-//   let i;
-//   const images = document.querySelectorAll("#photos ");
-//   for (i = 0; i < images.length; i++) {
-//     images[i].style.display = "none";
-//   }
-//   initialImage++;
-//   if (initialImage > images.length) {
-//     initialImage = 1;
-//   }
-//   images[initialImage - 1].style.display = "block";
-// }
-// imageSlides();
+let initialImage = 0;
+function imageSlides() {
+  setTimeout(imageSlides, 5000);
+  let i;
+  const images = document.querySelectorAll("#photos ");
+  for (i = 0; i < images.length; i++) {
+    images[i].style.display = "none";
+  }
+  initialImage++;
+  if (initialImage > images.length) {
+    initialImage = 1;
+  }
+  images[initialImage - 1].style.display = "block";
+}
+imageSlides();
 
 Promise.all([
   fetch("http://localhost:3000/quotes"),
@@ -43,11 +43,22 @@ function renderQuotes(quote) {
   todayQuote.appendChild(h4);
 }
 renderQuotes();
-function renderBooks(vitabu) {
-  const bookImage = document.getElementById("img");
-  const h3 = document.createElement("h3");
 
-  h3.innerText = vitabu.title;
-  bookImage.appendChild(h3);
+function renderBooks(vitabu) {
+  vitabu.forEach((book) => {
+    const bookImage = document.getElementById("img");
+
+    const image = document.createElement("img");
+    image.src = book.image_url;
+    image.style.width = "300px";
+    image.style.height = "200px";
+    bookImage.appendChild(image);
+    const h4 = document.getElementById("bokName");
+    h4.innerText = book.bookName;
+    const h5 = document.getElementById("author");
+    h5.innerText = book.author;
+    const h6 = document.getElementById("realese");
+    h6.innerText = book.dateOfPublish;
+  });
 }
 renderBooks();
