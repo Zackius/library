@@ -8,10 +8,7 @@ Created by : Zacharia Kamau
 This is a library application that uses json api to show available books in the library, the application show a photo of the book plus additional details of the book once the title of the book is clicked. The application also show random motivational quotes from the json api.
 
 ## Application Demonstration
-(../../../../Pictures/Library.png)
-
-## Video 
-(../../../../Videos/Screencast%20from%2026-06-2022%2011:36:14%20WB.webm)
+![Library](https://user-images.githubusercontent.com/88247115/175833956-53bacc5d-b999-45b4-b518-8f63c74a6671.png)
 ## Live link
 zackius.github.io/library/
 ## Known Bugs
